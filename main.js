@@ -9,10 +9,7 @@ $(document).ready(function() {
 	  $(".mobile-menu").fadeToggle();
 
 	});
-
-
-
-	          $(".cross").click(function(){
+	          $(".exit").click(function(){
 	             $(this).toggleClass('active');
 	             $(".page-nav").fadeToggle();
 	           });
